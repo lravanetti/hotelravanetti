@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.imagenfondo {
+    border-color: 1px solid greenyellow;
+    background-image: url('../img/portada.jpg');   
+    background-size: cover;
+
+} 
+/*contenedor de pagina*/
+#grilla {
+    /*border: 1px solid red;*/
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "header header header"
+    "article article article" "footer footer footer";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+}
+/*template areas*/
+
+
+header {
+    grid-area: header;
+}
+
+article {
+    grid-area: article;
+}
+
+footer {
+    grid-area: footer;
+}
+/*publicidad*/
+#publicidad {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(177, 188, 218, 0.5);
+    /*border: groove 2px greenyellow;*/
+    font-family: 'Kaushan Script', cursive;
+    margin: 20px 200px 20px 200px;
+}
+/*Logo*/
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: rgb(94, 123, 202);
+}
+/*contenedor navegacion*/
+#contnav {
+    border: 2px solid transparent;
+    background-color: rgb(243, 243, 241, 0.5);
+    margin: 20px 50px 20px 50px;
+}
+#navg {
+    display: flex;
+    justify-content: space-around;
+}
+/*botones*/
+
+
+li {
+    list-style: none;
+}
+
+.arti {
+    /*border: 2px solid purple;*/
+    margin: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    
+    justify-content: center;
+}
+/*footer*/
+.final {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(94, 123, 202);
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(243, 243, 241, 0.8);
+    font-size: 16px;
+    overflow: hidden; 
+    border: groove 1px gray;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+.fotos {
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 140px;
+    margin-right: 80px;
+}
+
+
+.mapa {
+    margin-left: 20%;
+    margin-bottom: 50px ;
+}
+
+.direccion {
+    background-color: rgb(243, 243, 241);
+    font-family: 'Roboto', serif;
+    width: 1100px;
+    height: 35px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+
+.datos {
+    color: rgb(94, 123, 202);
+    background-color: rgb(243, 243, 241);
+    display: inline-block;
+    border: groove 3px;
+    margin-left: 33%;
+}
+/*media celular*/
+@media screen and (min-width: 320px) {
+
+    .imagenfondo {
+        border-color: 1px solid greenyellow;
+        background-image: url('../img/portada.jpg');   
+        
+    }
+    #grilla {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "header" "article" "footer";
+    }
+
+    #publicidad {
+        display: flex;
+        justify-content: center;
+        transform: translate(3px, 1px);
+        margin: 10px 10px 50px 10px;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        transform: translate(3px,1px);
+    
+    }
+    #contnav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(243, 243, 241, 0.5);
+        padding: 5px 5px 5px 5px;
+        
+
+    }
+    #navg {
+        background-color: rgb(243, 243, 241,0.8);
+        font-family: 'Roboto', serif;
+        font-size: 20px;
+        display: grid;
+        grid-template-rows: repeat(4, 5rem);
+        padding: 5px 5px 5px 5px;
+    }
+    #info {
+        display: grid;
+        justify-content: center;
+    }
+    #mapa {
+        display: flex;
+        justify-content: center;
+        transform: scale(0.5,0.5);
+        margin: 20px 20px 20px 20px;
+
+    }
+    #direccion {
+        background-color: rgb(243, 243, 241);
+        font-family: 'Roboto', serif;
+        display: grid;
+        justify-content: space-around;
+        align-content: center;
+        margin: 10px 10px 10px 10px;
+        padding: 20px 20px 20px 20px;    
+        }
+    .final {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+
+
+
+    /*media tablet*/
+    
+@media screen and (min-width: 650px) {
+    #grilla {
+        /*border: 1px solid red;*/
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+        grid-template-areas: "header header"
+        "article article" "footer footer";
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    #publicidad {
+        text-align: center;
+        font-size: 25px;
+        background-color: rgb(177, 188, 218, 0.5);
+        /*border: groove 2px greenyellow;*/
+        font-family: 'Kaushan Script', cursive;
+        margin: 20px 200px 20px 200px;
+    }
+
+    #contnav {
+    display: flex;
+    justify-content: center;
+    border: 2px solid transparent;
+    background-color: rgb(243, 243, 241, 0.5);
+    margin: 20px 10px 20px 50px;
+    
+    }
+    
+    #navg {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Roboto', serif;
+    background-color: rgb(243, 243, 241);
+    margin: 20px 10px 20px 10px; 
+    padding: 10px 10px 10px 10px;  
+    }
+
+    #mapa {
+        display: flex;
+        align-content: center;
+        margin: 20px 20px 20px 20px;
+        padding: 10px 10px 10px 10px;
+        transform: scale(0.8,0.8);
+    }
+
+    .final {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    background-color: rgb(243, 243, 241);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px 5px 5px 5px;
+    }
+}
+}
