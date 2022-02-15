@@ -41,6 +41,7 @@ footer {
     /*border: groove 2px greenyellow;*/
     font-family: 'Kaushan Script', cursive;
     margin: 20px 200px 20px 200px;
+    background-image: linear-gradient(blue,white);
 }
 /*Logo*/
 #logo {
@@ -52,6 +53,9 @@ a {
     outline: none;
     text-decoration: none;
     color: rgb(94, 123, 202);
+}
+a:hover {
+    color: rgb(243, 243, 241);
 }
 /*contenedor navegacion*/
 #contnav {
@@ -68,6 +72,11 @@ a {
 
 li {
     list-style: none;
+    transition: all 1s;
+}
+
+li:hover {
+    background-color: rgb(94, 123, 202);
 }
 
 .arti {
@@ -258,7 +267,7 @@ li {
 
     .final {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
