@@ -52,7 +52,7 @@ footer {
 a {
     outline: none;
     text-decoration: none;
-    color: rgb(94, 123, 202);
+    color: rgb(94, 123, 202,0.8);
 }
 a:hover {
     color: rgb(243, 243, 241);
@@ -76,7 +76,7 @@ li {
 }
 
 li:hover {
-    background-color: rgb(94, 123, 202);
+    background-color: rgb(134, 165, 248);
 }
 
 .arti {
