@@ -7,7 +7,9 @@
     background-size: cover;
 
 } 
+
 /*contenedor de pagina*/
+
 #grilla {
     /*border: 1px solid red;*/
     display: grid;
@@ -19,8 +21,8 @@
     grid-row-gap: 10px;
     justify-content: center;
 }
-/*template areas*/
 
+/*template areas*/
 
 header {
     grid-area: header;
@@ -33,6 +35,7 @@ article {
 footer {
     grid-area: footer;
 }
+
 /*publicidad*/
 #publicidad {
     text-align: center;
@@ -43,6 +46,7 @@ footer {
     margin: 20px 200px 20px 200px;
     background-image: linear-gradient(blue,white);
 }
+
 /*Logo*/
 #logo {
     display: flex;
@@ -57,6 +61,7 @@ a {
 a:hover {
     color: rgb(243, 243, 241);
 }
+
 /*contenedor navegacion*/
 #contnav {
     border: 2px solid transparent;
