@@ -72,7 +72,7 @@ a:hover {
 
 li {
     list-style: none;
-    transition: all 1s;
+    transition: all 3s;
 }
 
 li:hover {
