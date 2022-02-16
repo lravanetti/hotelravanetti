@@ -45,13 +45,6 @@ footer {
     margin: 20px 200px 20px 200px;
     background-image: linear-gradient(blue,white);
 }
-
-/*Logo*/
-
-#logo {
-    display: flex;
-    justify-content: center;
-}
 /*links cambio de color*/
 
 a {
