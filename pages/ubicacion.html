@@ -5,50 +5,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Ravanetti - Inicio</title> <!-- titulo en ventana-->
-    <link rel="shortcut icon" href="../img/logo.JPG"> <!-- logo en ventana-->
-    <link rel="stylesheet" href="../css/style.css"> <!--hoja de estilo-->
+    <title> Hotel Ravanetti - Ubicacion </title> <!-- titulo en ventana-->
+    <!-- logo en ventana-->
+    <link rel="shortcut icon" href="../img/logo.JPG"> 
+    <!--BS css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--mi css-->
+    <link rel="stylesheet" href="../css/style.css"> 
 </head>
+
 <!-- inicio de body-->
+
 <body class="imagenfondo">
-    <div id="grilla">
+    <div class="container-fluid">
+
     <!--inicio de header-->
-    <header >
+
+    <header>
         <!-- publicidad-->
         <p id="publicidad">- Abierto los 365 dias de el año - Adheridos a PREVIAJE - </p>
         <!--logo -->
         <p id="logo" ><a href="../index.html"><img src="../img/logo.JPG" alt="LOGO DE EL HOTEL"></a></p>
-       <!-- inicio navegador-->
-        <nav id="contnav">
-            <ul id="navg">
+       
+        <!-- inicio navegador-->
+
+        <nav>
+            <ul class="nav justify-content-center">
                 <!-- botones-->
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../pages/ubicacion.html">UBICACION</a></li>
-                <li><a href="#">HABITACIONES Y SERVICIOS</a></li>
-                <li><a href="#">TARIFAS</a></li>
-                <li><a href="#">CONTACTO</a></li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html"> INICIO </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../pages/ubicacion.html"> UBICACION </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> HABITACIONES Y SERVICIOS </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> TARIFAS </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> CONTACTO </a>
+                </li>
             </ul>
         </nav>
+
     <!-- fin de header -->
     </header>
-    <!-- video hotel-->
-    <article id="arti">
-        <p id="mapa"><a href="#"><img src="../img/mapa.JPG" alt="MAPA"></a></p>
-        <p id="direccion" >Rivadavia 450 (8300) - Rincon de los Sauces, Neuquen, Argentina.<a href="tel:+5492994490800">Tel: (0299) 4490800 </a></p>
-    </article>
-    <!--inicio footer-->
-    <footer>
-        <div id="contnav">
-            <ul class="final">
-                <li><a href="mailto:info@hotelravanetti.com">info@hotelravanetti.com</a></li>
-                <li><a href="#">FACEBOOK</a></li>
-                <li><a href="#">INSTAGRAM</a></li>
-                <li><a href="#">Trabaja con nosotros</a></li>
-                <li><a href="../pages/ubicacion.html"> IR ARRIBA ↑</a></li>
-            </ul>
+
+    <!--mapa hotel-->
+
+    <div class="card mb-3">
+        <img src="../img/mapa.JPG" class="card-img-top" alt="mapa">
+        <div class="card-body">
+          <h5 class="card-text">Rivadavia 450 (8300) - Rincon de los Sauces, Neuquen, Argentina. Tel: (0299) 4490800</h5>
         </div>
+      </div>
+
+    <!-- inicio footer-->
+    <footer>
+
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="mailto:info@hotelravanetti.com"> info@hotelravanetti.com </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> FACEBOOK </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> INSTAGRAM </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> Trabaja con nosotros </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html"> IR ARRIBA ↑ </a>
+                </li>
+            </nav>
     </footer>
     <!--fin footer-->
+
 </div>
+
+<!-- JS de BS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 </body>
 </html>

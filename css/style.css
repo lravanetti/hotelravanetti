@@ -134,12 +134,16 @@ li:hover {
         justify-content: center;
     }
 
-    #mapa {
+    .card {
         display: flex;
         justify-content: center;
-        transform: scale(0.5,0.5);
+        transform: scale(0.8,0.8);
         margin: 20px 20px 20px 20px;
+    }
 
+    .card-text {
+        display: flex;
+        justify-content: center;
     }
     #direccion {
         background-color: rgb(243, 243, 241);
