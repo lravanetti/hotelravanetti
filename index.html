@@ -13,24 +13,35 @@
     <!--mi css-->
     <link rel="stylesheet" href="css/style.css"> 
 </head>
+
 <!-- inicio de body-->
 <body class="imagenfondo">
-    <div id="grilla" >
+    <div class="container-fluid">
     <!--inicio de header-->
-    <header >
+    <header>
         <!-- publicidad-->
         <p id="publicidad">- Abierto los 365 dias de el año - Adheridos a PREVIAJE - </p>
         <!--logo -->
         <p id="logo" ><a href="index.html"><img src="img/logo.JPG" alt="LOGO DE EL HOTEL"></a></p>
        <!-- inicio navegador-->
-        <nav id="contnav">
-            <ul id="navg">
+        <nav>
+            <ul class="nav justify-content-center">
                 <!-- botones-->
-                <li><a href="index.html">INICIO</a></li>
-                <li><a href="pages/ubicacion.html">UBICACION</a></li>
-                <li><a href="#">HABITACIONES Y SERVICIOS</a></li>
-                <li><a href="#">TARIFAS</a></li>
-                <li><a href="#">CONTACTO</a></li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"> INICIO </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="pages/ubicacion.html"> UBICACION </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> HABITACIONES Y SERVICIOS </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> TARIFAS </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> CONTACTO </a>
+                </li>
             </ul>
         </nav>
     <!-- fin de header -->
@@ -41,14 +52,25 @@
     </article>
     <!-- inicio footer-->
     <footer>
-        <div id="contnav">
-            <ul class="final">
-            <li><a href="mailto:info@hotelravanetti.com">info@hotelravanetti.com -</a></li>
-            <li><a href="#">FACEBOOK</a></li>
-            <li><a href="#">INSTAGRAM</a></li>
-            <li><a href="#">Trabaja con nosotros</a></li>
-            <li><a href="index.html"> IR ARRIBA ↑</a></li>
-            </ul>
+        <nav>
+            <ul class="nav justify-content-center">
+                <!-- botones-->
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="mailto:info@hotelravanetti.com"> info@hotelravanetti.com </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> FACEBOOK </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> INSTAGRAM </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> Trabaja con nosotros </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html"> IR ARRIBA ↑ </a>
+                </li>
+            </nav>
         </div>
     </footer>
     <!--fin footer-->
