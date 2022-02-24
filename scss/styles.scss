@@ -41,17 +41,18 @@ header, footer {
             transition: all 2s; 
                 &:hover {
                     background-color: rgb(134, 165, 248);
-                }
+                    }
         .nav-link {
             color: $color-letra;
             transition: all 2s;
             &:hover {
                 color: whitesmoke;
+                }
             }
-        }
         }
     }
 }
+
 article {
     margin: 50px 50px 50px 50px;
     padding: 50px 50px 50px 50px;
