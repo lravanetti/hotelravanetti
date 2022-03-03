@@ -61,3 +61,18 @@ article {
   display: flex;
   justify-content: center;
 }
+
+.btn--instagram {
+  background-color: #ffa397;
+  border: none;
+}
+
+.btn--facebook {
+  background-color: #9294e7;
+  border: none;
+}
+
+.btn--send-mail {
+  background-color: #b1fcbe;
+  border: none;
+}
