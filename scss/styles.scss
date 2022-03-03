@@ -62,10 +62,21 @@ article {
     justify-content: center
 }
 
+
+
 @each $red, $color in $redes {
     .btn--#{$red}{
         background-color: $color;
         border: none;
         
     }
+}
+@mixin consul ($colour, $fondou) {
+    color: $colour;
+    background-color: $fondou;    
+}
+
+.btn {
+    @include consul($color-letra, rgb(177, 184, 248))
+        
 }
