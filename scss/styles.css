@@ -81,3 +81,13 @@ article {
   color: #226fb3;
   background-color: #b1b8f8;
 }
+
+.p-3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+}

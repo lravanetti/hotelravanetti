@@ -80,3 +80,13 @@ article {
     @include consul($color-letra, rgb(177, 184, 248))
         
 }
+.p-3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.alert {
+    display: flex;
+    
+    justify-content: center;
+}

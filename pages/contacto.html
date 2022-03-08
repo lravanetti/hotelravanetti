@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
     <meta name="description" content="Lujoso hotel ubicado en la patagonia Argentina con vista a la montaña">
     <meta name="keywords" content="CONTACTO, INICIO, HOTEL, ALOJAMIENTO, ESTADIA, RESERVA, PATAGONIA, ARGENTINA, TURISMO, VACACIONES, SPA," > 
-    <title> Hotel Ravanetti - Contacto </title> <!-- titulo en ventana-->
+    <!-- titulo en ventana-->
+    <title> Hotel Ravanetti - Contacto </title> 
     <!-- logo en ventana-->
     <link rel="shortcut icon" href="../img/logo.JPG"> 
     <!--BS css-->
@@ -57,31 +59,24 @@
     </header>
     <!--Inicio formulario contacto-->
     <article class="container-fluid" >
-        <form class="datos">
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" placeholder="Juan">
-            <br>
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido" placeholder="Martinez">
-            <br>
-            <label for="telefono">Telefono:</label>
-            <input type="tel" name="telefono" placeholder="Cod de area + Numero">
-            <br>
-            <label for="email">E-Mail:</label>
-            <input type="email" name="email" placeholder="juanmartinez@gmail.com">
-            <br>
-            <label for="select">Horario de llamada</label>
-                <select name="Horario">
-                <option value="">Elija un horario</option>
-                <option value="uno">de 8 a 14hs</option>
-                <option value="dos">de 14 a 22hs</option>
-            </select>
-            <p>Deje su consulta y nos contactaremos con usted a la brevedad</p>
-            <textarea name="consulta" id="" cols="30" rows="10"></textarea>
-            <br>
-            <input type="reset" value="Borrar">
-            <input type="submit" value="Enviar">
-        </form>
+        <div class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="col-md-6 ">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+            </div>
+            <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="E-Mail" id="inputEmail4">
+              </div>
+              <div class="col-md-6 ">
+                <input type="tel" class="form-control" placeholder="Telefono" aria-label="telefono">
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Deje aqui su comentario y/o solicitud:</label>
+              </div>
+          </div>
         <!-- Fin formulario contacto-->
     </article>
     <!-- inicio footer-->
