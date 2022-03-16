@@ -72,7 +72,7 @@
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     background-color: #d4f5ea;
     margin: 20px 20px 20px 20px;
   }
@@ -121,19 +121,24 @@
     background-color: #f3f3f180;
     margin: 20px 50px 20px 50px;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
   }
   header nav li, footer nav li {
     list-style: none;
     transition: all 2s;
+    font-size: 16px;
   }
   header nav li:hover, footer nav li:hover {
+    font-size: 16px;
     background-color: #86a5f8;
   }
   header nav li .nav-link, footer nav li .nav-link {
     color: #226fb3;
     transition: all 2s;
+    font-size: 16px;
   }
   header nav li .nav-link:hover, footer nav li .nav-link:hover {
+    font-size: 16px;
     color: whitesmoke;
   }
   article {
@@ -149,11 +154,13 @@
   .p-3 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    font-size: 16px;
   }
   .ubic {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 16px;
     background-color: #d4f5ea;
     margin: 20px 100px 20px 100px;
   }
@@ -162,5 +169,6 @@
     background-color: #f3f3f180;
     justify-content: baseline;
     font-size: 16px;
+    font-weight: bold;
   }
 }
