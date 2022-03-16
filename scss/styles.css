@@ -82,6 +82,7 @@
     background-color: #f3f3f180;
     justify-content: baseline;
     font-size: 13px;
+    font-weight: bold;
   }
   .row, .form-control {
     font-size: 13px;
